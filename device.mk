@@ -199,9 +199,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     vendor.display.config@1.1
 
-# Doze
+# DPM
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    libshim_dpmframework
 
 # DRM
 PRODUCT_PACKAGES += \
