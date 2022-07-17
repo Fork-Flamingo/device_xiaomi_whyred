@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Flamingo stuff
-$(call inherit-product, vendor/flamingo/config/common_full_phone.mk)
+$(call inherit-product, vendor/flamingo/target/product/flamingo.mk)
 
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
